@@ -36,3 +36,9 @@ class M1 {
         h.ccc();
     }
 }
+
+
+/*M1.java:31: error: y has private access in YB
+         System.out.println(h.y);
+                             ^
+1 error*/
