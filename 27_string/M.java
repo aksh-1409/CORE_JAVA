@@ -1,9 +1,8 @@
-
-class J {
+class M {
     public static void main(String[] args) {
-        String x = "mohan";
+        String x = "aman";
 
-        char a = x.charAt(2);
+        int a = x.indexOf('a');
 
         System.out.println(a);
     }    
