@@ -1,6 +1,7 @@
 import java.util.HashSet;
+import java.util.Iterator;
 
-class F {
+class I {
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<String>();
 
@@ -9,14 +10,13 @@ class F {
         set.add("vineet");
         set.add("rahul");
         set.add("gagan");
-
         
         System.out.println(set);
 
-        // String x = new String("vineet");
-        String x = new String("yamraj");
-        System.out.println(set.remove(x));        
-        
-        System.out.println(set);
+        Iterator<String> itr = set.iterator();
+
+        while(itr.hasNext()) {
+            System.out.println(itr.next());
+        }
     }
 }

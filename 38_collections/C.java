@@ -1,24 +1,23 @@
-import java.util.Arrays;
-import java.util.List;
+import java.util.LinkedList;
 
-class C{
-    public static void main(String[] args){
-        Integer[] x = {12, 56, 78};
+class C {
+    public static void main(String[] args) {
+        // As a Stack:
+        LinkedList<String> list = new LinkedList<String>();
 
-        List<Integer> list = Arrays.asList(x);
+        list.push("mohan");
+        list.push("raj");
+        list.push("mukund");
+        list.push("neelesh");
+        list.push("ratan");
 
-          
-            for(Integer next:x){
-                System.out.println(next);
-            }
-        
+        System.out.println(list);
 
-
-        // for(Integer[] x: list){
-        //     for(Integer next:x){
-        //         System.out.println(next);
-        //     }
-        // }
+        System.out.println(list.pop());
+        System.out.println(list.pop());
+        System.out.println(list.pop());
+        System.out.println(list.pop());
+        System.out.println(list.pop());
 
         System.out.println(list);
     }

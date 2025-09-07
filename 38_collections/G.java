@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class F {
+class G {
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<String>();
 
@@ -9,13 +9,12 @@ class F {
         set.add("vineet");
         set.add("rahul");
         set.add("gagan");
-
         
         System.out.println(set);
 
-        // String x = new String("vineet");
-        String x = new String("yamraj");
-        System.out.println(set.remove(x));        
+        String x = new String("vineet");
+        // String x = new String("yamraj");
+        System.out.println(set.contains(x));        
         
         System.out.println(set);
     }
